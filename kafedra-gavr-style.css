@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper img {
+    width: 250px;
+    height: 335px;
+    border: 3px solid transparent;
+}
+.wrapper{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper img:hover{
+    border:3px solid white;
+    cursor: pointer;
+}
+.d{
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+}
+.prof::after{
+    content: "зав.каф., професор, д.е.н.";
+    display: block;
+    color: black;
+}
+@media (min-width:480px){
+    .wrapper{
+        background: lightskyblue;
+        width: 480px;
+    }
+    .d{
+        width: 290px;
+        display: inline-block;
+    }
+}
+@media (min-width:960px){
+    .wrapper{
+        background: lightskyblue;
+        width: 960px;
+    }
+    .d{
+        width: 290px;
+        display: inline-block;
+    }
+}
+@media (min-width:1200px){
+    .wrapper{
+        background: lightskyblue;
+        width: 1200px;
+    }
+    .d{
+        width: 290px;
+        display: inline-block;
+    }
+}
+
+.prof1::after{
+    content: 'професор, д.ф.-м.н.';
+    display: block;
+    color: black;
+}
+.prof2::after{
+    content: 'професор, д.е.н.';
+    display: block;
+    color: black;
+}
+.prof3::after{
+    content: 'доцент, к.е.н.';
+    display: block;
+    color: black;
+}
+.prof4::after{
+    content: 'доцент, к.т.н.';
+    display: block;
+    color: black;
+}
+.prof5::after{
+    content: "викладач";
+    display: block;
+    color: black;
+}
+.prof6::after{
+    content: "старший викладач";
+    display: block;
+    color: black;
+}
+.prof7::after{
+    content: "доцент, к.ф.-м.н.";
+    display: block;
+    color: black;
+}
+.prof8::after{
+    content: "аспірант";
+    display: block;
+    color: black;
+}
+.prof9::after{
+    content: "викладач, аспірант";
+    display: block;
+    color: black;
+}
